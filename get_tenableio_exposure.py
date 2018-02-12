@@ -2,16 +2,7 @@
 """
 Download all vulns from Tenable.io
 Name: Mike Weiss
-Email: michaelthomasweiss@gmail.com
-
-In order to run this script:
- -- Python 2.7.5 ENV installed on CentOS7
- -- All required modules are installed and updated (8/31/17)
- -- Network access available to Tenable.io
- -- Works with Tenable.io API as of 9/3/17
- -- Set the keys in the OS environment using: ACCESS_KEY, SECRET_KEY
- -- Set params (below) for output file, base URL and minimum risk (1=low, 4=Severe)
- -- All output is "pipe" delimited ("|")
+Email: blackdog.gianttree@gmail.com
 """
 
 import os
